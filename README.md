@@ -1,7 +1,7 @@
 # BeamPlayground
 Boilerplate application as playground for Apache Beam applications
 
-The next exercises are adapted from the Xpand IT's [Spark challenge](https://github.com/bdu-xpand-it/BDU-Recruitment-Challenges/wiki/Spark-2-Recruitment-Challenge)
+The next exercises are adapted from the [Xpand IT](https://www.xpand-it.com)'s [Spark challenge](https://github.com/bdu-xpand-it/BDU-Recruitment-Challenges/wiki/Spark-2-Recruitment-Challenge).
 ## Datasets
 Both CSV file contain scraped data from the Google Play Store.
 
