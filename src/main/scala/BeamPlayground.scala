@@ -27,6 +27,7 @@ object BeamPlayground extends App{
   val pipeline: Pipeline = Pipeline.create(options)
 
   // Read data from files (this will create a collection of lines from file)
+  // TODO: parse CSV files with schema from header
   val google_apps_collection: PCollection[String] = pipeline.apply(
     "Read googleplaystore.csv", TextIO.read().from("src/main/resources/googleplaystore.csv"))
 
@@ -35,8 +36,6 @@ object BeamPlayground extends App{
 
   // Apply transformations here!
   // ...
-
-  print(google_apps_collection)
 
   // Run pipeline (and wait for it to finish)
   pipeline.run.waitUntilFinish
